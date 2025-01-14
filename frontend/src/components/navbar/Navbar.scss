@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-container{
+        .list{
+            display: flex;
+            gap: 20px;
+            li{
+                list-style: none;
+                font-size: 20px;
+            }
+        }
+      
+    }
+    .wrapper{
+        a{
+            font-size: 20px;
+        }
+    }
+}
