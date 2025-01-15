@@ -4,6 +4,7 @@ import Layout from './pages/Layout'
 import Basket from './pages/basket/Basket'
 import Admin from './pages/admin/Admin'
 import Home from './pages/Home'
+import Detail from './pages/Detail'
 
 const router = createBrowserRouter([
 {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path:"/admin",
     element:<Admin />
+  },
+  {
+    path:"/productdetail/:id",
+    element:<Detail />
   }
 ]
 }

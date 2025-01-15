@@ -6,9 +6,9 @@ import cors from "cors"
 const port = process.env.PORT || 5001
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 app.use("/product", productRouter)
-app.use(cors())
 
 app.get("/",(req, res)=>{
     res.send("Many")
