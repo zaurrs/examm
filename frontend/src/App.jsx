@@ -5,6 +5,7 @@ import Basket from './pages/basket/Basket'
 import Admin from './pages/admin/Admin'
 import Home from './pages/Home'
 import Detail from './pages/Detail'
+import Wish from './pages/basket/Wish'
 
 const router = createBrowserRouter([
 {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path:"/productdetail/:id",
     element:<Detail />
+  },
+  {
+    path:"/wishlist",
+    element:<Wish />
   }
 ]
 }

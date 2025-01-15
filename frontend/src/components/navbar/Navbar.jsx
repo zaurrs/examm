@@ -20,6 +20,7 @@ const Navbar = () => {
                         <li>about</li>
                         <li>about</li>
                         <li><Link to="/admin">Admin</Link></li>
+                        <li><Link to="/wishlist">wishlist</Link></li>
                     </ul>
                 </div>
                 <div className="wrapper">

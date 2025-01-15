@@ -24,7 +24,7 @@ const Detail = () => {
     }, [products, id]);
 
   if (!findProduct) {
-    return <p>Loading...</p>; // Ürün yüklenene kadar loading mesajı göster
+    return <p>Loading...</p>; 
   }
 
   
